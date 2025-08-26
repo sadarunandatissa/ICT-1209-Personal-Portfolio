@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Personal Portfolio Website Design | Codehal</title>
+
+    <!-- box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"/>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style1.css" />
+  </head>
+
+  <body>
+    <!-- header design -->
+    <header class="header">
+      <a href="#" class="logo"> Portfolio </a>
+      <i class="bx bx-menu" id="menue-icon" onclick="toggleMenue()"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active"> Home </a>
+        <a href="#about">About me</a>
+        <a href="#services">Skills</a>
+        <a href="#Portfolio">Projects</a>
+        <a href="#contact">Contact me</a>
+      </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, it's Me</h3><br>
+        <h1>
+          Sadaru Nandatissa
+          <span class="multiple-text"> Fullstack Developer</span>
+        </h1>
+        <p id="intro">
+          I am a Fullstack Developer with a passion for creating beautiful and
+          functional web applications. I specialize in HTML, CSS, and
+          JavaScript, and I am always eager to learn new technologies.
+        </p>
+        <br />
+
+        <div class="social-media">
+          <a href="www.facebook.com" target="_blank"><i class="bx bxl-facebook"></i></a>
+          <a href="#"><i class="bx bxl-twitter"></i></a>
+          <a href="www.instagram.com" target="_blank"><i class="bx bxl-instagram-alt"></i></a>
+          <a href="www.linkedin.com/in/sadaru-nandatissa-066130344" target="_blank"><i class="bx bxl-linkedin"></i></a>
+        </div>
+        <br />
+      </div>
+      <div class="home-img">
+        <img src="images/Untitled design (3).png" alt="home image" />
+      </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/Untitled design (5).png" alt="about image" />
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Fullstack Developer</h3>
+        <p>
+          I am a passionate Fullstack Developer with a keen eye for design and
+          user experience. I love to create web applications that are not only
+          functional but also visually appealing.
+        </p>
+        <p>
+          With a strong foundation in HTML, CSS, and JavaScript, I am always
+          looking to improve my skills and stay updated with the latest trends
+          in web development.
+        </p>
+      </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+      <h2 class="heading"><span>Skills</span></h2>
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Frontend</h3>
+          <p>
+            I develop responsive and user-friendly websites using the latest
+            web technologies. My designs are clean, modern, and optimized for
+            performance.
+
+            <ul id="skills-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>React.js</li>
+              <li>Bootstrap</li>
+            </ul>
+          </p>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Backend</h3>
+          <p>
+            I build robust and scalable backend systems using Node.js and
+            Express. I ensure that the server-side logic is efficient and
+            secure.
+            <ul id="skills-list">
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>MongoDB</li>
+              <li>SQL</li>
+              <li>RESTful APIs</li>
+            </ul>
+          </p>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bx-paint"></i>
+          <h3>UI-UX Design</h3>
+          <p>Creative UI/UX designer focused on crafting clean, responsive, and user-friendly interfaces that elevate digital experiences.
+            
+            <ul id="skills-list">
+              <li>Figma</li>
+              <li>Adobe XD</li>
+              <li>Penpot</li>
+              <li>Sketch</li>
+              <li>UXPin</li>
+              
+            </ul>
+          </p>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="Portfolio">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+      <div class="porfolio-container">
+        <div class="portfoli-box">
+          <img src="images/portfolio1.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Generic Storefront-Local Market E-Commerce Platform</h4>
+            <h4>HTML, CSS, GSAP</h4><br>
+
+            <p>
+              Generic-Storefront is a fictional e-commerce platform designed to
+              digitize local market experiences across Sri Lanka.
+            </p>
+            <a href="https://github.com/sadarunandatissa/Generic-Storefront" target="_blank"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfoli-box">
+          <img src="images/portfolio5.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>PepperPro-E-Commerce Demo for Agricultural Exports</h4>
+            <h4>React.js, Node.js, MongoDB</h4>
+            <p>
+              A fictional online store for selling Sri Lankan pepper globally.
+            </p>
+            <a href="https://github.com/sadarunandatissa/Pepperpro" target="_blank"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfoli-box">
+          <img src="images/portfolio4.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4> EduTrack-Student Progress Dashboard</h4>
+            <h4>React.js, Node.js, MongoDB</h4>
+            <p>
+              A dummy web app for tracking student performance across subjects.
+              Features login authentication, dynamic charts, and teacher
+              feedback modules. Built with modular backend logic and responsive
+            </p>
+            <a href="https://github.com/sadarunandatissa/EduTrack" target="_blank"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>me!</span></h2>
+
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Address" />
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+
+    <!--custom js-->
+
+    <!-- footer design -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>&copy; 2025 Sadaru Nandatissa. All rights reserved.</p>
+      </div>
+
+      <div class="social-media">
+        <a href="#"><i class="bx bxl-facebook"></i></a>
+        <a href="#"><i class="bx bxl-twitter"></i></a>
+        <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+        <a href="www.linkedin.com/in/sadaru-nandatissa-066130344" target="_blank"><i class="bx bxl-linkedin"></i></a>
+      </div>
+
+      <nav class="navbar" id="footer-navbar">
+        <a href="#home" class="active"> Home </a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#Portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
